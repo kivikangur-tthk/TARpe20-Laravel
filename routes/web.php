@@ -21,10 +21,8 @@ Route::get('/posts/{post}', function ($slug) {
     if (! file_exists($path)){
         return redirect("/");
     }
-    $post = file_get_contents($path);
-    return view('post', [
-        "post"=>$post
-    ]);
+    $post = cache()->remember("posts.{$slug}",now()->addminutes(5), fn() => file_get_contents($path));
+    return view('post', ["post"=>$post]);
 })->where("post","[A-z_\-]+");
 
 Route::get('/hello', function ()
