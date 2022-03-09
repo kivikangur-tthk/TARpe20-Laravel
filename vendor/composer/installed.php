@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '45daecf7061bc30eb547989885ef9c71ea883e3a',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -383,12 +383,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '45daecf7061bc30eb547989885ef9c71ea883e3a',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -989,6 +989,15 @@
             'reference' => 'd349854331789aba9205fd755e0c1d1934ef1463',
             'dev_requirement' => true,
         ),
+        'spatie/yaml-front-matter' => array(
+            'pretty_version' => '2.0.6',
+            'version' => '2.0.6.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../spatie/yaml-front-matter',
+            'aliases' => array(),
+            'reference' => '96379e38b527b02380d8f83056a52a8f6489b4cf',
+            'dev_requirement' => false,
+        ),
         'symfony/console' => array(
             'pretty_version' => 'v6.0.5',
             'version' => '6.0.5.0',
@@ -1233,6 +1242,15 @@
             'install_path' => __DIR__ . '/../symfony/var-dumper',
             'aliases' => array(),
             'reference' => '60d6a756d5f485df5e6e40b337334848f79f61ce',
+            'dev_requirement' => false,
+        ),
+        'symfony/yaml' => array(
+            'pretty_version' => 'v6.0.3',
+            'version' => '6.0.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/yaml',
+            'aliases' => array(),
+            'reference' => 'e77f3ea0b21141d771d4a5655faa54f692b34af5',
             'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(
