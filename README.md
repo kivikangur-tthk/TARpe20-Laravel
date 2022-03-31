@@ -14,7 +14,10 @@
 4. composer install --ignore-platform-req
 4. vendor/bin/sail up
 
-
+## To fix error .\rn file not found
+1. remove project folder
+3. wsl
+3. use "git clone" from linux 
 
 ## About Laravel
 
